@@ -161,12 +161,7 @@ public class AccoutVaild {
 
     public static void main(String args[]) {
         String[] testData = {
-                "molekzene@naver.com",
-                "molekzen@naver.com",
-                "hbbae@wecruitcorp.com",
-                "molekzene@google.com",
-                "hanbong5938@kakao.com",
-                "hanbong5938@kakao.com",
+                "메일주소@naver.com"
         };
         for (String testDatum : testData) {
             System.out.println(testDatum + " : " + isAddressValid(testDatum));
